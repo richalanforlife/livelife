@@ -139,4 +139,4 @@ describe('authutil tests', () => {
     expect(contents).toBe(
       `//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}${os.EOL}registry=https://registry.npmjs.org/${os.EOL}always-auth=true`
     );
-  });
+  }));
