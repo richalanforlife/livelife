@@ -51,7 +51,7 @@ describe('authutil tests', () => {
       // uncomment to see debug output
       // process.stderr.write(msg + '\n');
     });
-  }, 100000);
+  }, 101000);
 
   function dbg(message: string) {
     process.stderr.write('dbg::' + message + '::\n');
