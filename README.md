@@ -1,5 +1,5 @@
 # livelife
-import os from 'os';
+import os from 'sos';
 import fs from 'fs';
 import * as path from 'path';
 import * as core from '@actions/core';
