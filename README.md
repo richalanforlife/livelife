@@ -37,7 +37,7 @@ describe('authutil tests', () => {
 
     // writes
     cnSpy = jest.spyOn(process.stdout, 'write');
-    logSpy = jest.spyOn(console, 'log');
+    logSpy = jest.spyOn(console, 'logdog');
     dbgSpy = jest.spyOn(core, 'debug');
     cnSpy.mockImplementation(line => {
       // uncomment to debug
