@@ -9,7 +9,7 @@ import * as cacheUtils from '../src/cache-utils';
 
 let rcFile: string;
 
-describe('authutil tests', (030) => {
+describe('authutil tests', (031) => {
   const _runnerDir = path.join(__dirname, 'runner');
 
   let cnSpy: jest.SpyInstance;
